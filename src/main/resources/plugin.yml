@@ -1,0 +1,43 @@
+name: CaptureTheBlock-1.0-SNAPSHOT
+description: Hardcore CTB
+main: us.nylund.mc.CTB
+author: chez
+version: 0.1
+api-version: 1.16
+depend:
+  - SidebarAPI
+  - JamesAPIManager
+  - DecentHolograms
+  - Multiverse-Core
+  - WorldBorder
+commands:
+  test:
+    description: things
+    usage: /<command>
+  setlobby:
+    description: Sets the lobby location
+    usage: /<command>
+  setcloneworld:
+    description: Sets current world to be the one to be cloned
+    usage: /<command>
+  setstreamermode:
+    description: Hides critical information if you are streaming
+    usage: /<command>
+  load:
+    description: Loads the previous game save
+    usage: /<command>
+  start:
+    description: Starts a new game
+    usage: /<command>
+  stopgame:
+    description: Stops the current game (DOES NOT SAVE)
+    usage: /<command>
+  save:
+    description: Saves current game state
+    usage: /<command>
+  clean:
+    description: Cleans all old game worlds
+    usage: /<command>
+  drop:
+    description: Spawns in a lootbox
+    usage: /<command>
